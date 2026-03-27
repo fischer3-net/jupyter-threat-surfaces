@@ -42,4 +42,4 @@ Every module connects calculus to one or more of four statistical threads:
 
 ---
 
-*fischer³ Education · [GitHub](https://github.com/fischer3-net/threat-surfaces)*
+*fischer³ Education · [GitHub](https://github.com/fischer3-net/juptyer-threat-surfaces)*

@@ -9,13 +9,13 @@ logo: assets/logo.png   # optional — remove if no logo yet
 
 # The URL where the book will be hosted
 # Update before deploying
-# url: https://fischer3-net.github.io/threat-surfaces
+# url: https://fischer3-net.github.io/jupyter-threat-surfaces
 
 # ==============================================================================
 # Repository settings — enables "Open in Colab" and "View Source" buttons
 # ==============================================================================
 repository:
-  url: https://github.com/fischer3-net/threat-surfaces
+  url: https://github.com/fischer3-net/jupyter-threat-surfaces
   branch: main
   path_to_book: .
 
