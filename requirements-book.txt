@@ -1,7 +1,7 @@
 # Jupyter Book build dependencies
 # Install locally: pip install -r requirements-book.txt
 
-jupyter-book>=1.0.0
+jupyter-book>=0.15,<1.0
 numpy
 matplotlib
 sympy
