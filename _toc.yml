@@ -1,0 +1,54 @@
+# ==============================================================================
+# _toc.yml — Threat Surfaces | fischer³ Education
+# Table of contents for Jupyter Book 2
+# Add new units here as they are completed.
+# ==============================================================================
+
+format: jb-book
+root: intro
+
+parts:
+
+  - caption: "Module 00 — Orientation & Prerequisites"
+    chapters:
+      - file: modules/module-00-orientation/index
+        sections:
+          - file: modules/module-00-orientation/unit-01-vectors
+          - file: modules/module-00-orientation/unit-02-dot-and-cross-products
+          - file: modules/module-00-orientation/unit-03-single-variable-review
+
+  - caption: "Module 01 — Geometry of ℝⁿ"
+    chapters:
+      - file: modules/module-01-geometry-of-rn/index
+
+  - caption: "Module 02 — Partial Derivatives"
+    chapters:
+      - file: modules/module-02-partial-derivatives/index
+
+  - caption: "Module 03 — The Gradient"
+    chapters:
+      - file: modules/module-03-gradient-and-directional/index
+
+  - caption: "Module 04 — Optimization"
+    chapters:
+      - file: modules/module-04-optimization/index
+
+  - caption: "Module 05 — Multiple Integrals"
+    chapters:
+      - file: modules/module-05-multiple-integrals/index
+
+  - caption: "Module 06 — Multivariate Normal (Capstone)"
+    chapters:
+      - file: modules/module-06-mvn-capstone/index
+
+  - caption: "Module 07 — Vector Calculus"
+    chapters:
+      - file: modules/module-07-vector-calculus/index
+
+  - caption: "Module 08 — Capstone Project"
+    chapters:
+      - file: modules/module-08-capstone-project/index
+
+  - caption: "Refreshers"
+    chapters:
+      - file: refreshers/index

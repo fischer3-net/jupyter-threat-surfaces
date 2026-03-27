@@ -1,0 +1,137 @@
+# ==============================================================================
+# _config.yml — Threat Surfaces | fischer³ Education
+# Jupyter Book 2 configuration
+# ==============================================================================
+
+title: "Threat Surfaces"
+author: "fischer³ Education"
+logo: assets/logo.png   # optional — remove if no logo yet
+
+# The URL where the book will be hosted
+# Update before deploying
+# url: https://fischer3-net.github.io/threat-surfaces
+
+# ==============================================================================
+# Repository settings — enables "Open in Colab" and "View Source" buttons
+# ==============================================================================
+repository:
+  url: https://github.com/fischer3-net/threat-surfaces
+  branch: main
+  path_to_book: .
+
+# ==============================================================================
+# Launch buttons
+# ==============================================================================
+launch_buttons:
+  colab_url: "https://colab.research.google.com"
+  notebook_interface: "classic"
+
+# ==============================================================================
+# Execution settings
+# Notebooks are NOT executed during build — outputs are pre-saved.
+# Students run them live via Colab.
+# ==============================================================================
+execute:
+  execute_notebooks: "off"
+
+# ==============================================================================
+# HTML settings
+# ==============================================================================
+html:
+  use_issues_button: false
+  use_repository_button: true
+  home_page_in_navbar: true
+  favicon: assets/favicon.svg   # optional
+
+# ==============================================================================
+# MathJax configuration — defines all course macros from latex-preamble.tex
+# This is the key advantage over Zensical: macros work natively here.
+# ==============================================================================
+sphinx:
+  config:
+    mathjax3_config:
+      tex:
+        macros:
+          # Number systems
+          "R":        "\\mathbb{R}"
+          "N":        "\\mathbb{N}"
+          "Z":        "\\mathbb{Z}"
+          "Q":        "\\mathbb{Q}"
+          "C":        "\\mathbb{C}"
+
+          # Vectors (bold lowercase)
+          "va":       "\\boldsymbol{a}"
+          "vb":       "\\boldsymbol{b}"
+          "vc":       "\\boldsymbol{c}"
+          "vd":       "\\boldsymbol{d}"
+          "ve":       "\\boldsymbol{e}"
+          "vf":       "\\boldsymbol{f}"
+          "vg":       "\\boldsymbol{g}"
+          "vh":       "\\boldsymbol{h}"
+          "vi":       "\\boldsymbol{i}"
+          "vj":       "\\boldsymbol{j}"
+          "vk":       "\\boldsymbol{k}"
+          "vn":       "\\boldsymbol{n}"
+          "vr":       "\\boldsymbol{r}"
+          "vu":       "\\boldsymbol{u}"
+          "vv":       "\\boldsymbol{v}"
+          "vw":       "\\boldsymbol{w}"
+          "vx":       "\\boldsymbol{x}"
+          "vy":       "\\boldsymbol{y}"
+          "vz":       "\\boldsymbol{z}"
+          "vzero":    "\\boldsymbol{0}"
+
+          # Greek vectors
+          "vtheta":   "\\boldsymbol{\\theta}"
+          "vmu":      "\\boldsymbol{\\mu}"
+          "vbeta":    "\\boldsymbol{\\beta}"
+          "valpha":   "\\boldsymbol{\\alpha}"
+          "vlambda":  "\\boldsymbol{\\lambda}"
+          "vsigma":   "\\boldsymbol{\\sigma}"
+
+          # Matrices (bold uppercase)
+          "mA":       "\\boldsymbol{A}"
+          "mB":       "\\boldsymbol{B}"
+          "mC":       "\\boldsymbol{C}"
+          "mI":       "\\boldsymbol{I}"
+          "mJ":       "\\boldsymbol{J}"
+          "mP":       "\\boldsymbol{P}"
+          "mQ":       "\\boldsymbol{Q}"
+          "mSigma":   "\\boldsymbol{\\Sigma}"
+          "mX":       "\\boldsymbol{X}"
+          "mY":       "\\boldsymbol{Y}"
+
+          # Transpose
+          "T":        ["^{\\top}", 0]
+
+          # Calculus — note: args must use array syntax [expansion, nargs]
+          "pd":       ["\\frac{\\partial #1}{\\partial #2}", 2]
+          "Hess":     ["\\nabla^2 #1\\!\\left(#2\\right)", 2]
+
+          # Linear algebra
+          "norm":     ["\\left\\|#1\\right\\|", 1]
+          "abs":      ["\\left|#1\\right|", 1]
+          "inner":    ["\\langle #1,\\, #2 \\rangle", 2]
+          "tr":       ["\\operatorname{tr}\\!\\left(#1\\right)", 1]
+          "rank":     ["\\operatorname{rank}\\!\\left(#1\\right)", 1]
+          "diag":     ["\\operatorname{diag}\\!\\left(#1\\right)", 1]
+
+          # Probability & statistics
+          "E":        ["\\mathbb{E}\\left[#1\\right]", 1]
+          "Var":      ["\\operatorname{Var}\\!\\left(#1\\right)", 1]
+          "Cov":      ["\\operatorname{Cov}\\!\\left(#1,\\,#2\\right)", 2]
+          "given":    "\\,\\vert\\,"
+          "iid":      "\\overset{\\text{iid}}{\\sim}"
+          "Normal":   "\\mathcal{N}"
+          "MVN":      ["\\mathcal{N}\\!\\left(#1,\\,#2\\right)", 2]
+
+          # Likelihood & inference
+          "Lik":      "\\mathcal{L}"
+          "loglik":   "\\ell"
+          "MLE":      ["\\hat{#1}_{\\text{MLE}}", 1]
+          "MAP":      ["\\hat{#1}_{\\text{MAP}}", 1]
+          "KL":       ["D_{\\text{KL}}\\!\\left(#1\\,\\|\\,#2\\right)", 2]
+
+          # Misc
+          "defeq":    "\\coloneqq"
+          "st":       "\\text{ s.t. }"
