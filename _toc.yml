@@ -20,7 +20,8 @@ parts:
   - caption: "Module 01 — Geometry of ℝⁿ"
     chapters:
       - file: modules/module-01-geometry-of-rn/index
-
+      - file: modules/module-01-geometry-of-rn/unit-01-scalar-fields
+      
   - caption: "Module 02 — Partial Derivatives"
     chapters:
       - file: modules/module-02-partial-derivatives/index
