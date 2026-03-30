@@ -1,7 +1,13 @@
 # ==============================================================================
 # _toc.yml — Threat Surfaces | fischer³ Education
-# Table of contents for Jupyter Book 2
+# Table of contents for Jupyter Book 1.x
 # Add new units here as they are completed.
+#
+# Status:
+#   Module 00 — COMPLETE (3 units)
+#   Module 01 — COMPLETE (3 units)
+#   Module 02 — COMPLETE (4 units)
+#   Modules 03–08 — stub index.md only
 # ==============================================================================
 
 format: jb-book
@@ -21,17 +27,24 @@ parts:
     chapters:
       - file: modules/module-01-geometry-of-rn/index
         sections:
-        - file: modules/module-01-geometry-of-rn/unit-01-scalar-fields
-      
-  - caption: "Module 02 — Partial Derivatives"
+          - file: modules/module-01-geometry-of-rn/unit-01-scalar-fields
+          - file: modules/module-01-geometry-of-rn/unit-02-level-curves
+          - file: modules/module-01-geometry-of-rn/unit-03-vector-fields
+
+  - caption: "Module 02 — Partial Derivatives & Differentiability"
     chapters:
       - file: modules/module-02-partial-derivatives/index
+        sections:
+          - file: modules/module-02-partial-derivatives/unit-01-partial-derivatives
+          - file: modules/module-02-partial-derivatives/unit-02-higher-order
+          - file: modules/module-02-partial-derivatives/unit-03-total-derivative
+          - file: modules/module-02-partial-derivatives/unit-04-chain-rule
 
-  - caption: "Module 03 — The Gradient"
+  - caption: "Module 03 — The Gradient & Directional Derivatives"
     chapters:
       - file: modules/module-03-gradient-and-directional/index
 
-  - caption: "Module 04 — Optimization"
+  - caption: "Module 04 — Optimization in Multiple Variables"
     chapters:
       - file: modules/module-04-optimization/index
 
@@ -39,7 +52,7 @@ parts:
     chapters:
       - file: modules/module-05-multiple-integrals/index
 
-  - caption: "Module 06 — Multivariate Normal (Capstone)"
+  - caption: "Module 06 — The Multivariate Normal (Capstone)"
     chapters:
       - file: modules/module-06-mvn-capstone/index
 

@@ -24,7 +24,7 @@ Each unit is **45–65 minutes** and is independently resumable.
 | # | Title | Focus |
 |---|---|---|
 | 00 | [Orientation & Prerequisites](modules/module-00-orientation/index) | Vectors, dot products, notation |
-| 01 | Geometry of $\R^n$ | Scalar fields, level sets, geometric intuition |
+| 01 | [Geometry of $\R^n$](modules/module-01-geometry-of-rn/index.md) | Scalar fields, level sets, geometric intuition |
 | 02 | Partial Derivatives & Differentiability | Partials, chain rule, total differential |
 | 03 | The Gradient & Directional Derivatives | Gradient fields, Jacobian, steepest ascent |
 | 04 | Optimization in Multiple Variables | Critical points, Hessian, Lagrange multipliers |
