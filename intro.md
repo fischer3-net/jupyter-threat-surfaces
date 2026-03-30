@@ -1,6 +1,5 @@
 
-["fischer³"](assets/favicon3.svg ["fischer³"])
-
+!["fischer³"](assets/favicon3.svg "fischer³")
 # Threat Surfaces
 
 **Multivariable Calculus for AI Security** | fischer³ Education
