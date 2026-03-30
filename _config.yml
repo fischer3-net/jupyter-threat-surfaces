@@ -42,7 +42,7 @@ html:
   use_repository_button: true
   home_page_in_navbar: true
   favicon: assets/favicon3.svg   # optional
-  copyright: "Copyright © 2026 fischer³ Education. All rights reserved."
+  copyright: "2026"
 
 # ==============================================================================
 # MathJax configuration — defines all course macros from latex-preamble.tex
