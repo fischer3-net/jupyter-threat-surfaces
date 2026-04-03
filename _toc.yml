@@ -43,7 +43,9 @@ parts:
   - caption: "Module 03 — The Gradient & Directional Derivatives"
     chapters:
       - file: modules/module-03-gradient-and-directional/index
-
+        sections:
+          - file: modules/module-03-gradient-and-directional/unit-01-gradient-vector
+          
   - caption: "Module 04 — Optimization in Multiple Variables"
     chapters:
       - file: modules/module-04-optimization/index
