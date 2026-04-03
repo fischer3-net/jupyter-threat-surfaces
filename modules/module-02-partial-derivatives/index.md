@@ -1,4 +1,4 @@
-# Module 02 — Partial Derivatives & Differentiability
+# Overview
 
 **Purpose**: The computational core. This is where multivariable calculus becomes a working tool rather than a geometric abstraction.
 
