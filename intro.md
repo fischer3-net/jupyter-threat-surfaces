@@ -10,6 +10,8 @@
 
 ---
 
+**(Course Still in Active Development)**
+
 This course builds the mathematical foundation for understanding how machine learning models behave, fail, and can be secured — starting from multivariable calculus and building toward the multivariate normal distribution, maximum likelihood estimation, and Bayesian inference.
 
 It is designed for practitioners with demanding schedules. Every unit follows the same rhythm:
