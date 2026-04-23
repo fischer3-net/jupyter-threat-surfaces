@@ -35,10 +35,10 @@ parts:
     chapters:
       - file: modules/module-02-partial-derivatives/index
         sections:
-          - file: modules/module-02-partial-derivatives/unit-01-partial-derivatives
-          - file: modules/module-02-partial-derivatives/unit-02-higher-order
-          - file: modules/module-02-partial-derivatives/unit-03-total-derivative
-          - file: modules/module-02-partial-derivatives/unit-04-chain-rule
+          - file: modules/module-02-01-partial-derivatives/unit-01-partial-derivatives
+          - file: modules/module-02-02-higher-order/unit-02-higher-order
+          - file: modules/module-02-03-total-derivative/unit-03-total-derivative
+          - file: modules/module-02-04-chain-rule/unit-04-chain-rule
 
   - caption: "Module 03 — The Gradient"
     chapters:
@@ -52,25 +52,25 @@ parts:
     chapters:
       - file: modules/module-04-optimization/index
         sections:
-          - file: modules/module-04-optimization/unit-01-critical-points
-          - file: modules/module-04-optimization/unit-02-hessian-and-convexity
-          - file: modules/module-04-optimization/unit-03-lagrange-multipliers
+          - file: modules/module-04-optimization/unit-04-01-critical-points
+          - file: modules/module-04-optimization/unit-04-02-hessian-and-convexity
+          - file: modules/module-04-optimization/unit-04-03-lagrange-multipliers
 
   - caption: "Module 05 — Multiple Integrals"
     chapters:
       - file: modules/module-05-multiple-integrals/index
         sections:
-          - file: modules/module-05-multiple-integrals/unit-01-double-integrals
-          - file: modules/module-05-multiple-integrals/unit-02-change-of-variables
-          - file: modules/module-05-multiple-integrals/unit-03-integration-and-probability
+          - file: modules/module-05-multiple-integrals/unit-05-01-double-integrals
+          - file: modules/module-05-multiple-integrals/unit-05-02-change-of-variables
+          - file: modules/module-05-multiple-integrals/unit-05-03-integration-and-probability
 
   - caption: "Module 06 — Multivariate Normal (Capstone)"
     chapters:
       - file: modules/module-06-mvn-capstone/index
         sections:
-          - file: modules/module-06-mvn-capstone/unit-01-mvn-density
-          - file: modules/module-06-mvn-capstone/unit-02-marginals-conditionals
-          - file: modules/module-06-mvn-capstone/unit-03-mle-for-mvn
+          - file: modules/module-06-mvn-capstone/unit-06-01-mvn-density
+          - file: modules/module-06-mvn-capstone/unit-06-02-marginals-conditionals
+          - file: modules/module-06-mvn-capstone/unit-06-03-mle-for-mvn
 
   - caption: "Module 07 — Vector Calculus"
     chapters:
