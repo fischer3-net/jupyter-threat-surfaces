@@ -75,10 +75,18 @@ parts:
   - caption: "Module 07 — Vector Calculus"
     chapters:
       - file: modules/module-07-vector-calculus/index
+        sections:
+          - file: modules/module-07-vector-calculus/unit-01-divergence-and-curl
+          - file: modules/module-07-vector-calculus/unit-02-line-integrals
+          - file: modules/module-07-vector-calculus/unit-03-surface-integrals-and-theorems
 
   - caption: "Module 08 — Capstone Project"
     chapters:
       - file: modules/module-08-capstone-project/index
+        sections:
+          - file: modules/module-08-capstone-project/unit-01-problem-setup
+          - file: modules/module-08-capstone-project/unit-02-variational-inference
+          - file: modules/module-08-capstone-project/unit-03-posterior-analysis
 
   - caption: "Refreshers"
     chapters:
