@@ -18,10 +18,9 @@ parts:
   - caption: "Module 00 — Orientation & Prerequisites"
     chapters:
       - file: modules/module-00-orientation/index
-        sections:
-          - file: modules/module-00-orientation/unit-01-vectors
-          - file: modules/module-00-orientation/unit-02-dot-and-cross-products
-          - file: modules/module-00-orientation/unit-03-single-variable-review
+      - file: modules/module-00-orientation/unit-01-vectors
+      - file: modules/module-00-orientation/unit-02-dot-and-cross-products
+      - file: modules/module-00-orientation/unit-03-single-variable-review
 
   - caption: "Module 01 — Geometry of ℝⁿ"
     chapters:
