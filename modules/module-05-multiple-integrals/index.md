@@ -1,4 +1,4 @@
-# Overview
+# Module 05 Overview
 
 **Purpose**: Extend integration from one variable to multiple variables, develop the change-of-variables formula, and build the integration machinery needed to work with multivariate probability densities.
 

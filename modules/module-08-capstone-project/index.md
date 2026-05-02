@@ -1,4 +1,4 @@
-# Overview
+# Module 08 Overview
 
 **Purpose**: Apply every tool built in Modules 00–07 to a single end-to-end problem — Bayesian logistic regression via variational inference. This module is a project, not a sequence of teaching topics. Each unit is a phase of a single coherent derivation and implementation.
 

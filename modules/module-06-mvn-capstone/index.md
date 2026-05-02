@@ -1,4 +1,4 @@
-# Overview
+# Module 06 Overview
 
 **Purpose**: Assemble every tool from Modules 01–05 into a single object — the multivariate normal distribution — and derive its properties from first principles. This is the mathematical capstone of the course.
 
