@@ -1,4 +1,4 @@
-# Overview
+# Module 03 Overview
 
 **Purpose**: Assemble partial derivatives into a vector, establish its geometry, and connect the gradient to optimization and statistical estimation.
 

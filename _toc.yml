@@ -25,67 +25,59 @@ parts:
   - caption: "Module 01 — Geometry of ℝⁿ"
     chapters:
       - file: modules/module-01-geometry-of-rn/index
-        sections:
-          - file: modules/module-01-geometry-of-rn/unit-01-scalar-fields
-          - file: modules/module-01-geometry-of-rn/unit-02-level-curves
-          - file: modules/module-01-geometry-of-rn/unit-03-vector-fields
+      - file: modules/module-01-geometry-of-rn/unit-01-scalar-fields
+      - file: modules/module-01-geometry-of-rn/unit-02-level-curves
+      - file: modules/module-01-geometry-of-rn/unit-03-vector-fields
 
   - caption: "Module 02 — Partial Derivatives & Differentiability"
     chapters:
       - file: modules/module-02-partial-derivatives/index
-        sections:
-          - file: modules/module-02-01-partial-derivatives/unit-01-partial-derivatives
-          - file: modules/module-02-02-higher-order/unit-02-higher-order
-          - file: modules/module-02-03-total-derivative/unit-03-total-derivative
-          - file: modules/module-02-04-chain-rule/unit-04-chain-rule
+      - file: modules/module-02-01-partial-derivatives/unit-01-partial-derivatives
+      - file: modules/module-02-02-higher-order/unit-02-higher-order
+      - file: modules/module-02-03-total-derivative/unit-03-total-derivative
+      - file: modules/module-02-04-chain-rule/unit-04-chain-rule
 
   - caption: "Module 03 — The Gradient"
     chapters:
-      - file: modules/module-03-gradient-and-directional/index
-        sections:
-          - file: modules/module-03-gradient-and-directional/unit-01-gradient-vector
-          - file: modules/module-03-gradient-and-directional/unit-02-directional-derivatives
-          - file: modules/module-03-gradient-and-directional/unit-03-jacobian
-            
+      - file: modules/module-03-gradient-and-directional/index    
+      - file: modules/module-03-gradient-and-directional/unit-01-gradient-vector
+      - file: modules/module-03-gradient-and-directional/unit-02-directional-derivatives
+      - file: modules/module-03-gradient-and-directional/unit-03-jacobian
+      
   - caption: "Module 04 — Optimization in Multiple Variables"
     chapters:
       - file: modules/module-04-optimization/index
-        sections:
-          - file: modules/module-04-optimization/unit-04-01-critical-points
-          - file: modules/module-04-optimization/unit-04-02-hessian-and-convexity
-          - file: modules/module-04-optimization/unit-04-03-lagrange-multipliers
+      - file: modules/module-04-optimization/unit-04-01-critical-points
+      - file: modules/module-04-optimization/unit-04-02-hessian-and-convexity
+      - file: modules/module-04-optimization/unit-04-03-lagrange-multipliers
 
   - caption: "Module 05 — Multiple Integrals"
     chapters:
       - file: modules/module-05-multiple-integrals/index
-        sections:
-          - file: modules/module-05-multiple-integrals/unit-05-01-double-integrals
-          - file: modules/module-05-multiple-integrals/unit-05-02-change-of-variables
-          - file: modules/module-05-multiple-integrals/unit-05-03-integration-and-probability
+      - file: modules/module-05-multiple-integrals/unit-05-01-double-integrals
+      - file: modules/module-05-multiple-integrals/unit-05-02-change-of-variables
+      - file: modules/module-05-multiple-integrals/unit-05-03-integration-and-probability
 
   - caption: "Module 06 — Multivariate Normal (Capstone)"
     chapters:
       - file: modules/module-06-mvn-capstone/index
-        sections:
-          - file: modules/module-06-mvn-capstone/unit-06-01-mvn-density
-          - file: modules/module-06-mvn-capstone/unit-06-02-marginals-conditionals
-          - file: modules/module-06-mvn-capstone/unit-06-03-mle-for-mvn
+      - file: modules/module-06-mvn-capstone/unit-06-01-mvn-density
+      - file: modules/module-06-mvn-capstone/unit-06-02-marginals-conditionals
+      - file: modules/module-06-mvn-capstone/unit-06-03-mle-for-mvn
 
   - caption: "Module 07 — Vector Calculus"
     chapters:
       - file: modules/module-07-vector-calculus/index
-        sections:
-          - file: modules/module-07-vector-calculus/unit-01-divergence-and-curl
-          - file: modules/module-07-vector-calculus/unit-02-line-integrals
-          - file: modules/module-07-vector-calculus/unit-03-surface-integrals-and-theorems
+      - file: modules/module-07-vector-calculus/unit-01-divergence-and-curl
+      - file: modules/module-07-vector-calculus/unit-02-line-integrals
+      - file: modules/module-07-vector-calculus/unit-03-surface-integrals-and-theorems
 
   - caption: "Module 08 — Capstone Project"
     chapters:
       - file: modules/module-08-capstone-project/index
-        sections:
-          - file: modules/module-08-capstone-project/unit-01-problem-setup
-          - file: modules/module-08-capstone-project/unit-02-variational-inference
-          - file: modules/module-08-capstone-project/unit-03-posterior-analysis
+      - file: modules/module-08-capstone-project/unit-01-problem-setup
+      - file: modules/module-08-capstone-project/unit-02-variational-inference
+      - file: modules/module-08-capstone-project/unit-03-posterior-analysis
 
   - caption: "Refreshers"
     chapters:

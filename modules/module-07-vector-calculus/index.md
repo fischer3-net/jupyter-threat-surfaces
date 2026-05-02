@@ -1,4 +1,4 @@
-# Overview
+# Module 07 Overview
 
 **Purpose**: Extend the differentiation and integration machinery to vector fields — functions that assign a vector to every point in space. Develop the major theorems (Green's, Stokes', Gauss's) that unify the integration tools from Module 05, and connect vector calculus to score functions, information geometry, and variational inference.
 

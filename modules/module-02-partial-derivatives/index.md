@@ -1,4 +1,4 @@
-# Overview
+# Module 02 Overview
 
 **Purpose**: The computational core. This is where multivariable calculus becomes a working tool rather than a geometric abstraction.
 

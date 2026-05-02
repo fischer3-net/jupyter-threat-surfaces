@@ -1,4 +1,4 @@
-# Overview
+# Module 04 Overview
 
 **Purpose**: Develop the tools for finding and classifying extrema of multivariable functions — unconstrained and constrained — and connect them to the optimization problems at the heart of statistical estimation.
 
