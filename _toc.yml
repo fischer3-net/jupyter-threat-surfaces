@@ -32,10 +32,10 @@ parts:
   - caption: "Module 02 — Partial Derivatives & Differentiability"
     chapters:
       - file: modules/module-02-partial-derivatives/index
-      - file: modules/module-02-01-partial-derivatives/unit-02-01-partial-derivatives
-      - file: modules/module-02-02-higher-order/unit-02-02-higher-order-partial-derivatives
-      - file: modules/module-02-03-total-derivative/unit-02-03-total-derivative
-      - file: modules/module-02-04-chain-rule/unit-02-04-chain-rule
+      - file: modules/module-02-partial-derivatives/unit-02-01-partial-derivatives
+      - file: modules/module-02-partial-derivatives/unit-02-02-higher-order
+      - file: modules/module-02-partial-derivatives/unit-02-03-total-derivative
+      - file: modules/module-02-partial-derivatives/unit-02-04-chain-rule.ipynb
 
   - caption: "Module 03 — The Gradient"
     chapters:
